@@ -1,0 +1,7 @@
+---
+- hosts: mhost1
+  tasks:
+    - name: installing python software
+      yum: 
+        name: python
+        state: present
